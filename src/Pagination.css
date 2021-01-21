@@ -1,0 +1,23 @@
+.Pagination {
+    margin-top: 10px;
+}
+
+
+.Pagination p {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.active {
+    color: white;
+    background-color:midnightblue;
+}
+
+
+.prev {
+    
+}
