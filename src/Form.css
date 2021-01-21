@@ -1,0 +1,14 @@
+.form input[type ="text"]{
+    border-radius: 8px;
+    height: 30px;
+    border : none;
+    margin-right: 10px;
+}
+
+.form  {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+
+    
+}
