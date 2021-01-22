@@ -32,7 +32,7 @@ export default function Pagination({ page, setPage, hasNextPage}){
         <div className = "Pagination">
             {page > 1 &&<p className = "prev" onClick = {handlePrevClick}>&#60;</p>}
             {
-                pageList.map( item => <p className = {activePage == item ? "active" : ""} onClick = {() => handlePageClick(item)}>
+                pageList.map( item => <p key = {item} className = {activePage == item ? "active" : ""} onClick = {() => handlePageClick(item)}>
                     {item}
                 </p>)
             }
